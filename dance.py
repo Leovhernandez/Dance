@@ -1,4 +1,3 @@
-import pgzrun
 from random import randint
 
 WIDTH = 800
@@ -197,5 +196,3 @@ def update():
             current_move = 0
     else:
         music.stop()
-
-pgzrun.go()
